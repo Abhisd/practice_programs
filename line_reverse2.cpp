@@ -1,5 +1,5 @@
 
-//CODE TO REVERSE THE SENTENCE LIKE "HELLO INDIA"->"INDIA HELLO".
+//CODE TO REVERSE THE SENTENCE LIKE "HELLO THERE"->"THERE HELLO".
 
 #include<iostream>
 #include<cstring> 
@@ -28,7 +28,7 @@ string wordReverse(string sentence)
 } 
 int main() 
 { 
-	string sentence="hello india";
+	string sentence="hello there";
 	cout << wordReverse(sentence); 
 	return 0; 
 } 
