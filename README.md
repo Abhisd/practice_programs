@@ -1,1 +1,1 @@
-# practise_programs
+# practice_programs
