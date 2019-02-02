@@ -1,18 +1,21 @@
+
+//CODE TO REVERSE THE SENTENCE LIKE "HELLO INDIA"->"INDIA HELLO".
+
 #include<iostream>
 #include<cstring> 
 using namespace std; 
-string wordReverse(string str) 
+string wordReverse(string sentence) 
 { 
-	int i = str.length() - 1; 
+	int i = sentence.length() - 1; 
 	int start, end = i + 1; 
 	string result = ""; 
 	while(i >= 0) 
 	{ 
-		if(str[i] == ' ') 
+		if(sentence[i] == ' ') 
 		{ 
 			start = i + 1; 
 			while(start != end) 
-				result += str[start++]; 
+				result += sentence[start++]; 
 			result += ' '; 
 			end = i; 
 		} 
@@ -20,13 +23,13 @@ string wordReverse(string str)
 	} 
 	start = 0; 
 	while(start != end) 
-		result += str[start++]; 
+		result += sentence[start++]; 
 	return result; 
 } 
 int main() 
 { 
-	string str="hello india";
-	cout << wordReverse(str); 
+	string sentence="hello india";
+	cout << wordReverse(sentence); 
 	return 0; 
 } 
 
