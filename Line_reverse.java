@@ -9,3 +9,7 @@ class Line_reverse{
         System.out.println(finalStr);
     }
 }
+
+
+
+// output is "one the is He"
