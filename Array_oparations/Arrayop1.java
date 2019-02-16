@@ -2,7 +2,7 @@ package counter;
 
 import java.util.Scanner;
 
-public class Arayop {
+public class Arrayop1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
